@@ -88,4 +88,3 @@ function SignUpLogin() {
   );
 }
 
-export default SignUpLogin;

@@ -34,7 +34,7 @@ function Signup() {
 
         // Signed up 
         const user = userCredential.user;
-
+alert("user created successfully")
       // setuser(user)
         // ...
       })

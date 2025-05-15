@@ -116,7 +116,7 @@ const [addmenuopen, setaddmenuopen] = useState(false)
   return (
     <header  className={`flex items-center justify-between ${bg || "bg-transparent"} sm:px-[0%] ${p || "p-6"}`}>
       <h1 className="text-white font-extrabold text-3xl sm:text-5xl italic font-serif py-1 sm:p-2">
-        Cafetech
+        MesCafe
       </h1>
 
       {/* User Info */}
@@ -136,7 +136,7 @@ const [addmenuopen, setaddmenuopen] = useState(false)
 
       {/* Desktop Menu */}
       <nav className="hidden lg:flex items-center gap-4">
-        <p className="font-bold text-white">Cafetech Corporate</p>
+        <p className="font-bold text-white">MesCafe Corporate</p>
         <p className="font-bold text-white">Partner with us</p>
         {admin&&  <button onClick={() => {
              setcashier(false)
@@ -248,7 +248,7 @@ sethoste(true)
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="absolute top-16 right-0 w-64 bg-gray-900 p-6 rounded-lg flex flex-col items-center gap-4 shadow-lg lg:hidden"  style={{zIndex:99999}}>
-          <p className="font-bold text-white">Cafetech Corporate</p>
+          <p className="font-bold text-white">MesCafe Corporate</p>
           <p className="font-bold text-white">Partner with us</p>
           {!admin&& !cashier && (
             <>
